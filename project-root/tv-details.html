@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/spinner.css" />
     <script src="js/script.js" defer></script>
-    <title>Flixx | Search Movies & Shows</title>
+    <title>Flixx | Show Details</title>
   </head>
   <body>
     <header class="main-header">
@@ -23,49 +23,24 @@
         <nav>
           <ul>
             <li>
-              <a class="nav-link" href="/movie-details.html">Movies</a>
+              <a class="nav-link" href="/project-root/movie.html">Movies</a>
             </li>
             <li>
-              <a class="nav-link" href="/shows.html">TV Shows</a>
+              <a class="nav-link" href="/project-root/shows.html">TV Shows</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <!-- Search Movies -->
-    <section class="search">
-      <div class="container">
-        <div id="alert"></div>
-        <form action="/search.html" class="search-form">
-          <div class="search-radio">
-            <input type="radio" id="movie" name="type" value="movie" checked />
-            <label for="movies">Movies</label>
-            <input type="radio" id="tv" name="type" value="tv" />
-            <label for="shows">TV Shows</label>
-          </div>
-          <div class="search-flex">
-            <input
-              type="text"
-              name="search-term"
-              id="search-term"
-              placeholder="Enter search term"
-            />
-            <button class="btn" type="submit">
-              <i class="fas fa-search"></i>
-            </button>
-          </div>
-        </form>
+    <!-- Show Details -->
+    <section class="container">
+      <div class="back">
+        <a class="btn" href="/project-root/shows.html">Back To TV Shows</a>
       </div>
-    </section>
-
-    <!-- Search Results -->
-    <section id="search-results-wrapper" class="container">
-      <heading id="search-results-heading"></heading>
-      <div id="search-results" class="grid"></div>
-      <div id="pagination">
-        <div class="pagination"></div>
-      </div>
+      <!-- Show Details Output -->
+      <div id="show-details">
+        
     </section>
 
     <!-- Footer -->
