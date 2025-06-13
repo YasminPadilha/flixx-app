@@ -23,6 +23,3 @@ cd flixx-app
 Open the app:
 Open index.html in your browser to view the app.
 
-On the terminal run:
-npm install
-npm run build
